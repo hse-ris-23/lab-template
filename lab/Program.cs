@@ -8,7 +8,6 @@ namespace lab
         static void Main(string[] args)
         {
             Console.WriteLine("Hello world!");
-            var test = 5;
         }
     }
 }
