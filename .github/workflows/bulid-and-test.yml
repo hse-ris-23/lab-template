@@ -31,7 +31,7 @@ jobs:
 
       # Execute all unit tests in the solution
       - name: Build solution
-        run: msbuild lab\lab.csproj -t:rebuild -verbosity:diag -property:Configuration=Release
+        run: msbuild lab\lab.csproj -t:restore -t:rebuild -verbosity:diag -property:Configuration=Release
 
   test:
     runs-on: windows-latest  # For a list of available runner types, refer to
