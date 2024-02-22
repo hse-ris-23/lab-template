@@ -11,11 +11,6 @@ on:
 jobs:
 
   test:
-
-    strategy:
-      matrix:
-        configuration: [Release]
-
     runs-on: windows-latest  # For a list of available runner types, refer to
     
     steps:
